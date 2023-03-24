@@ -1,0 +1,10 @@
+3	//The DFA has 3 states
+0 1	//The alphabet has 2 symbols (0) and (1)
+0	//Start state is q0
+0 1	//Final state is q0 and q1
+0 1 1	//If the DFA is in state q0, with 1 it will go to q1
+0 0 0	//If the DFA is in state q0, with 0 it will go to q0
+1 1 2	//If the DFA is in state q1, with 1 it will go to q2
+1 0 0	//If the DFA is in state q1, with 0 it will go to q0
+2 1 2	//If the DFA is in state q2, with 1 it will go to q2
+2 0 2	//If the DFA is in state q2, with 0 it will go to q2
